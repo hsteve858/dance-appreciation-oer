@@ -11,25 +11,29 @@ Course materials, organized by unit and week.
 ## Unit 1 — Introduction to Dance as a Cultural and Artistic Form (Week 1)
 - [Sway 1: Dance as a Cultural and Artistic Form](modules/sway-01.md)
 - [Sway 2: Exploring Dance Genres and Cultural Influences](modules/sway-02.md)
-- {: .sway-list}
+{: .sway-list}
 
 ## Unit 2 — Understanding the Roles in Dance (Week 2)
 - [Sway 3: The Choreographer & Dancer](modules/sway-03.md)
 - [Sway 4: Dance & The Audience](modules/sway-04.md)
+{: .sway-list}
 
 ## Unit 3 — The Value of Dance Genres in Society, History, and Culture (Week 3)
 - [Sway 5: Dance Genres as Cultural Reflections](modules/sway-05.md)
 - [Sway 6: Dance as a Cultural Shaper and Mirror](modules/sway-06.md)
+{: .sway-list}
 
 ## Unit 4 — Dance Genres and Movement Styles (Weeks 4–5)
 - [Sway 7: Introduction to Dance Genres & Performance Dance](modules/sway-07.md)
 - [Sway 8: Social Dance and Introduction to Somatic Practices](modules/sway-08.md)
 - [Sway 9: World Dance Traditions](modules/sway-09.md)
 - [Sway 10: Postmodern and Experimental Dance](modules/sway-10.md)
+{: .sway-list}
 
 ## Unit 5 — Language of Dance and Principles of Movement (Week 6)
 - [Sway 11: Language of Dance and Anatomy of Movement](modules/sway-11.md)
 - [Sway 12: Elements of Dance](modules/sway-12.md)
+{: .sway-list}
 
 ## Unit 6 — Reflection and Critique of Dance Performances (Week 7)
 - [Sway 13: Introduction to Dance Critique](modules/sway-13.md)
