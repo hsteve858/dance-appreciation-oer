@@ -5,7 +5,7 @@ title: DAN 1025 - Dance Appreciation
 # DAN 1025: Dance Appreciation
 
 See **[SYLLABUS](syllabus.md)** for full course outline.
-Organized by unit/week.
+Organized by Unit/Week.
 ![Thione Diop dancing](images/1025_img_1.jpg)
 
 ## Unit 1 — Introduction to Dance as a Cultural and Artistic Form (Week 1)
