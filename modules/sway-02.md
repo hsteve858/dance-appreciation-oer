@@ -7,7 +7,7 @@ title: "Sway 2: Exploring Dance Genres and Cultural Influences"
 # Sway 2: Exploring Dance Genres and Cultural Influences
 *Unit 1, Week 1*
 
-**View SWAY PRESENTATION**
+**[View SWAY PRESENTATION](https://sway.cloud.microsoft/JwGx4V4g0yBhhPKA?ref=Link)**
 
 ## Summary
 Uses archival dance photographs (powwow, ballet, Ballet Folklórico, breaking) to prompt discussion of how culture shows up visually in dance. Students read Sklar and Dils/Albright on dance as a form of embodied cultural knowledge, then complete a "Dance Lineage" project: researching a genre from their own background and building a group "melting pot" dance from everyone's contributions.
