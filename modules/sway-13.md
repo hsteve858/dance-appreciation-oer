@@ -10,4 +10,4 @@ title: "Sway 13: Introduction to Dance Critique"
 **[View SWAY PRESENTATION](https://sway.cloud.microsoft/JwGx4V4g0yBhhPKA?ref=Link){:target="_blank"}**
 
 ## Summary
-Introduces the four-part critique framework — Description, Contextualization, Interpretation, Evaluation — with description as the objective foundation. Uses John Mueller's writing on Fred Astaire as a model of detailed, evidence-based description, reviews dance vocabulary, and has students practice purely descriptive (non-judgmental) observation of a video excerpt.
+Introduces the four-part critique framework: Description, Contextualization, Interpretation, Evaluation, with description as the objective foundation. Uses John Mueller's writing on Fred Astaire as a model of detailed, evidence-based description, reviews dance vocabulary, and has students practice purely descriptive (non-judgmental) observation of a video excerpt.
