@@ -11,6 +11,7 @@ Course materials, organized by unit and week.
 ## Unit 1 — Introduction to Dance as a Cultural and Artistic Form (Week 1)
 - [Sway 1: Dance as a Cultural and Artistic Form](modules/sway-01.md)
 - [Sway 2: Exploring Dance Genres and Cultural Influences](modules/sway-02.md)
+- {: .sway-list}
 
 ## Unit 2 — Understanding the Roles in Dance (Week 2)
 - [Sway 3: The Choreographer & Dancer](modules/sway-03.md)
