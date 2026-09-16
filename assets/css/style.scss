@@ -1,1 +1,72 @@
+---
+---
 
+@import "{{ site.theme }}";
+
+// ---- DAN 1025 accent palette (warm terracotta) ----
+$accent: #b5502d;
+$accent-dark: #8a3b20;
+$accent-light: #f3e2d8;
+
+// Site title / header
+header h1 {
+  color: $accent-dark;
+}
+
+header h1 a {
+  color: $accent-dark;
+}
+
+header p {
+  border-top: 3px solid $accent;
+  padding-top: 12px;
+  margin-top: 8px;
+}
+
+// Links
+a {
+  color: $accent-dark;
+}
+
+a:hover, a:focus {
+  color: $accent;
+}
+
+// Section headings (unit headers, etc.)
+h2 {
+  color: $accent-dark;
+  border-bottom: 2px solid $accent-light;
+  padding-bottom: 6px;
+}
+
+h3, h4 {
+  color: $accent;
+}
+
+// Small warm rule instead of plain grey hr
+hr {
+  background: $accent-light;
+  height: 3px;
+}
+
+// Blockquotes get a warm left border
+blockquote {
+  border-left: 3px solid $accent;
+  color: #5a5a5a;
+}
+
+// Download button strip, if show_downloads is ever enabled
+.downloads {
+  background: $accent-light;
+  border-color: $accent;
+}
+
+.downloads a strong {
+  color: $accent-dark;
+}
+
+// Table header rule
+th {
+  border-bottom: 2px solid $accent-light;
+  color: $accent-dark;
+}
