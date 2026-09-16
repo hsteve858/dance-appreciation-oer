@@ -7,7 +7,7 @@ title: "Sway 9: World Dance Traditions"
 # Sway 9: World Dance Traditions
 *Unit 4, Weeks 4–5*
 
-[View SWAY PRESENTATION](https://sway.cloud.microsoft/Tdv9L6NA3wCsIpCX?ref=Link){:target="_blank"}
+**[View SWAY PRESENTATION](https://sway.cloud.microsoft/Tdv9L6NA3wCsIpCX?ref=Link){:target="_blank"}**
 
 ## Summary
 Surveys global dance traditions — African dance's Ashé and mind-body-spirit unity, Indian classical forms (Bharatanatyam, Kathak) and their symbolic mudras/mythology, and Latin American dances (Cuban rumba, Dominican merengue) as vehicles for national and racial identity politics.
