@@ -54,3 +54,4 @@ No readings — final project presentations and course wrap-up.
 ---
 
 [Full source list](sources.md)
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/) (CC BY-NC-SA). Downloadable documents for this course are available on [OER Commons](https://oercommons.org/courseware/lesson/146691).
