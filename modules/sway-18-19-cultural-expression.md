@@ -7,8 +7,6 @@ title: "Sway 18/19: Dance as Cultural Expression"
 # Sway 18/19: Dance as Cultural Expression
 *Unit 8, Week 12*
 
-> Note: this content exists as two identical files in the original upload — "Sway 18_Dance as Cultural Expression.pdf" and "Sway 19_Dance as Cultural Expression.pdf." They are the same document.
-
 **[View SWAY PRESENTATION](https://sway.cloud.microsoft/y6ujSRhyOVSplwFf?ref=Link){:target="_blank"}**
 
 ## Summary
