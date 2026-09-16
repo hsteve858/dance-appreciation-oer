@@ -10,7 +10,7 @@ title: "Sway 1: Dance as a Cultural and Artistic Form"
 **[View SWAY PRESENTATION](https://sway.cloud.microsoft/qERnAAGBKtUfMFmi?ref=Link){:target="_blank"}**
 
 ## Summary
-Opens the course by asking students to define dance before and after viewing a presentation on its five elements — Body, Energy, Space, Time, and Action. Anchored by Fraleigh's line that "dance grows out of culture and feeds back into it," it sets up dance as both an artistic and cultural form from day one.
+Opens the course by asking students to define dance before and after viewing a presentation on its five elements: Body, Energy, Space, Time, and Action. Anchored by Fraleigh's line that "dance grows out of culture and feeds back into it," it sets up dance as both an artistic and cultural form from day one.
 ...
 ---
 
