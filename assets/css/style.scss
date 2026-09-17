@@ -3,71 +3,269 @@
 
 @import "{{ site.theme }}";
 
-// ---- DAN 1025 accent palette (warm terracotta) ----
-$accent: #b5502d;
-$accent-dark: #8a3b20;
-$accent-light: #f3e2d8;
-.sway-list a { font-size: 1.08em; }
+/* =========================================================
+   RRCC Brand Colors
+   ========================================================= */
 
-// Site title / header
-header h1 {
-  color: $accent-dark;
+:root {
+  --foothill-night: #141A38;
+  --fountain-red: #E31E38;
+  --deep-strata: #520F1C;
+  --alpenglow: #FF8559;
+  --bluebird-sky: #99C9DE;
+  --prairie-gold: #FFC44F;
+  --ponderosa: #75CC82;
+  --alpine-twilight: #6B52A1;
+  --juniper: #385452;
+  --white: #FFFFFF;
 }
 
-header h1 a {
-  color: $accent-dark;
+/* =========================================================
+   Base
+   ========================================================= */
+
+body {
+  color: var(--foothill-night);
+  background: var(--white);
+  font-family: "Libre Franklin", Arial, sans-serif;
+  line-height: 1.6;
 }
 
-header p {
-  border-top: 3px solid $accent;
-  padding-top: 12px;
-  margin-top: 8px;
-}
-
-// Links
 a {
-  color: $accent-dark;
+  color: var(--fountain-red);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
 }
 
-a:hover, a:focus {
-  color: $accent;
+a:hover,
+a:focus {
+  color: var(--deep-strata);
 }
 
-// Section headings (unit headers, etc.)
+/* =========================================================
+   Typography
+   ========================================================= */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--foothill-night);
+  font-family: "Libre Franklin", Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+h1 {
+  border-bottom: 4px solid var(--fountain-red);
+  padding-bottom: 0.35em;
+}
+
 h2 {
-  color: $accent-dark;
-  border-bottom: 2px solid $accent-light;
-  padding-bottom: 6px;
+  border-bottom: 2px solid var(--bluebird-sky);
+  padding-bottom: 0.25em;
 }
 
-h3, h4 {
-  color: $accent;
+strong,
+b {
+  color: var(--foothill-night);
 }
 
-// Small warm rule instead of plain grey hr
-hr {
-  background: $accent-light;
-  height: 3px;
+/* =========================================================
+   Header / Site Navigation
+   ========================================================= */
+
+header {
+  background: var(--foothill-night);
+  color: var(--white);
 }
 
-// Blockquotes get a warm left border
+header h1,
+header h2,
+header h3,
+header p {
+  color: var(--white);
+}
+
+header a {
+  color: var(--white);
+}
+
+header a:hover,
+header a:focus {
+  color: var(--alpenglow);
+}
+
+header .view {
+  background: var(--fountain-red);
+  color: var(--white);
+  border: 0;
+}
+
+header .view:hover,
+header .view:focus {
+  background: var(--deep-strata);
+  color: var(--white);
+}
+
+/* =========================================================
+   Buttons
+   ========================================================= */
+
+.btn,
+button,
+input[type="submit"],
+input[type="button"] {
+  background: var(--fountain-red);
+  color: var(--white);
+  border: 1px solid var(--fountain-red);
+  border-radius: 4px;
+}
+
+.btn:hover,
+.btn:focus,
+button:hover,
+button:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+input[type="button"]:hover,
+input[type="button"]:focus {
+  background: var(--deep-strata);
+  color: var(--white);
+  border-color: var(--deep-strata);
+}
+
+/* =========================================================
+   Main Content
+   ========================================================= */
+
+main {
+  background: var(--white);
+}
+
 blockquote {
-  border-left: 3px solid $accent;
-  color: #5a5a5a;
+  border-left: 4px solid var(--fountain-red);
+  background: var(--bluebird-sky);
+  color: var(--foothill-night);
+  padding: 0.75em 1em;
+  margin: 1.5em 0;
 }
 
-// Download button strip, if show_downloads is ever enabled
-.downloads {
-  background: $accent-light;
-  border-color: $accent;
+hr {
+  border: 0;
+  border-top: 2px solid var(--bluebird-sky);
+  margin: 2em 0;
 }
 
-.downloads a strong {
-  color: $accent-dark;
+/* =========================================================
+   Tables
+   ========================================================= */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
 }
 
-// Table header rule
 th {
-  border-bottom: 2px solid $accent-light;
-  color: $accent-dark;
+  background: var(--foothill-night);
+  color: var(--white);
+  font-weight: 700;
+}
+
+td,
+th {
+  border: 1px solid var(--bluebird-sky);
+  padding: 0.6em 0.75em;
+}
+
+tr:nth-child(even) {
+  background: #F5F7FA;
+}
+
+/* =========================================================
+   Code
+   ========================================================= */
+
+code,
+pre {
+  background: #F5F7FA;
+  color: var(--foothill-night);
+}
+
+pre {
+  border-left: 4px solid var(--fountain-red);
+  padding: 1em;
+  overflow-x: auto;
+}
+
+/* =========================================================
+   Images / Figures
+   ========================================================= */
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+figcaption {
+  color: var(--juniper);
+  font-size: 0.9em;
+}
+
+/* =========================================================
+   Lists
+   ========================================================= */
+
+li::marker {
+  color: var(--fountain-red);
+}
+
+/* =========================================================
+   Footer
+   ========================================================= */
+
+footer {
+  background: var(--foothill-night);
+  color: var(--white);
+  border-top: 4px solid var(--fountain-red);
+}
+
+footer a {
+  color: var(--white);
+}
+
+footer a:hover,
+footer a:focus {
+  color: var(--alpenglow);
+}
+
+/* =========================================================
+   Accessibility / Focus
+   ========================================================= */
+
+:focus-visible {
+  outline: 3px solid var(--prairie-gold);
+  outline-offset: 3px;
+}
+
+/* =========================================================
+   Responsive Adjustments
+   ========================================================= */
+
+@media screen and (max-width: 720px) {
+  h1 {
+    font-size: 1.8em;
+  }
+
+  h2 {
+    font-size: 1.45em;
+  }
+
+  table {
+    display: block;
+    overflow-x: auto;
+  }
 }
