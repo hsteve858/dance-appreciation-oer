@@ -1,1 +1,161 @@
+---
+---
 
+@import "{{ site.theme }}";
+
+// ---- DAN 1025 accent palette (warm terracotta) ----
+$accent: #b5502d;
+$accent-dark: #8a3b20;
+$accent-light: #f3e2d8;
+.sway-list a { font-size: 1.08em; }
+
+// Site title / header
+header h1 {
+  color: $accent-dark;
+}
+
+header h1 a {
+  color: $accent-dark;
+}
+
+header p {
+  border-top: 3px solid $accent;
+  padding-top: 12px;
+  margin-top: 8px;
+}
+
+// Links
+a {
+  color: $accent-dark;
+}
+
+a:hover, a:focus {
+  color: $accent;
+}
+
+// Section headings (unit headers, etc.)
+h2 {
+  color: $accent-dark;
+  border-bottom: 2px solid $accent-light;
+  padding-bottom: 6px;
+}
+
+h3, h4 {
+  color: $accent;
+}
+
+// Small warm rule instead of plain grey hr
+hr {
+  background: $accent-light;
+  height: 3px;
+}
+
+// Blockquotes get a warm left border
+blockquote {
+  border-left: 3px solid $accent;
+  color: #5a5a5a;
+}
+
+// Download button strip, if show_downloads is ever enabled
+.downloads {
+  background: $accent-light;
+  border-color: $accent;
+}
+
+.downloads a strong {
+  color: $accent-dark;
+}
+
+// Table header rule
+th {
+  border-bottom: 2px solid $accent-light;
+  color: $accent-dark;
+}
+
+/* =========================================================
+   RRCC Brand Palette
+   Layout preserved from the original theme CSS.
+   ========================================================= */
+
+:root {
+  --foothill-night: #141A38;
+  --fountain-red: #E31E38;
+  --deep-strata: #520F1C;
+  --alpenglow: #FF8559;
+  --bluebird-sky: #99C9DE;
+  --prairie-gold: #FFC44F;
+  --ponderosa: #75CC82;
+  --alpine-twilight: #6B52A1;
+  --juniper: #385452;
+}
+
+/* RRCC brand colors for links and interactive elements */
+a {
+  color: var(--fountain-red);
+}
+
+a:hover,
+a:focus {
+  color: var(--deep-strata);
+}
+
+/* Keep the original left-side theme structure, using Foothill Night */
+header {
+  color: #FFFFFF;
+  background: var(--foothill-night);
+}
+
+header h1,
+header h2,
+header h3,
+header p,
+header a {
+  color: #FFFFFF;
+}
+
+header a:hover,
+header a:focus {
+  color: var(--alpenglow);
+}
+
+/* Primary action */
+header .view {
+  background: var(--fountain-red);
+  color: #FFFFFF;
+}
+
+header .view:hover,
+header .view:focus {
+  background: var(--deep-strata);
+  color: #FFFFFF;
+}
+
+/* Content accents */
+h1 {
+  border-bottom-color: var(--fountain-red);
+}
+
+h2 {
+  border-bottom-color: var(--bluebird-sky);
+}
+
+blockquote {
+  border-left-color: var(--fountain-red);
+  background: var(--bluebird-sky);
+  color: var(--foothill-night);
+}
+
+hr {
+  border-top-color: var(--bluebird-sky);
+}
+
+/* Lists */
+li::marker {
+  color: var(--fountain-red);
+}
+
+/* Keyboard focus */
+:focus-visible {
+  outline: 3px solid var(--prairie-gold);
+  outline-offset: 3px;
+}
